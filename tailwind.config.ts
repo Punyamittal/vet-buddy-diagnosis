@@ -26,11 +26,18 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				vet: {
+					primary: 'hsl(var(--vet-primary))',
+					secondary: 'hsl(var(--vet-secondary))',
+					accent: 'hsl(var(--vet-accent))',
+					warning: 'hsl(var(--vet-warning))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
